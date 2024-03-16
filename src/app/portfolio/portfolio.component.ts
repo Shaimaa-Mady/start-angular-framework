@@ -8,12 +8,12 @@ import { Component } from '@angular/core';
 export class PortfolioComponent {
  
   images:string[]=[
-    '../../assets/imgs/poert1.png',
-    '../../assets/imgs/port2.png',
-    '../../assets/imgs/port3.png',
-    '../../assets/imgs/poert1.png',
-    '../../assets/imgs/port2.png',
-    '../../assets/imgs/port3.png',
+    './assets/imgs/poert1.png',
+    './assets/imgs/port2.png',
+    './assets/imgs/port3.png',
+    './assets/imgs/poert1.png',
+    './assets/imgs/port2.png',
+    './assets/imgs/port3.png',
   ]
 
   onChanging:boolean=false;
